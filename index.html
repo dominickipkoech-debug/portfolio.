@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dominick Kipkoech — Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f6f8;
+      color: #1f2937;
+      line-height: 1.5;
+    }
+    header {
+      background: #0f172a;
+      color: #ffffff;
+      padding: 3rem 1.5rem;
+      text-align: center;
+    }
+    .profile-photo {
+      width: 132px;
+      height: 132px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #ffffff;
+      margin-bottom: 1rem;
+      display: inline-block;
+    }
+    header h1 {
+      margin: 0 0 0.5rem;
+      font-size: 2.25rem;
+    }
+    header p {
+      margin: 0 auto 1.5rem;
+      max-width: 620px;
+      color: #cbd5e1;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.75rem 1.3rem;
+      background: #2563eb;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+    .btn:hover {
+      background: #1d4ed8;
+    }
+    main {
+      max-width: 920px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      margin-bottom: 2.25rem;
+    }
+    h2 {
+      margin-top: 0;
+      color: #111827;
+    }
+    .card {
+      background: #ffffff;
+      border-radius: 8px;
+      padding: 1.25rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.25rem;
+      margin-top: 1rem;
+    }
+    .card h3 {
+      margin: 0 0 0.4rem;
+      font-size: 1.1rem;
+    }
+    .card p {
+      margin: 0 0 0.9rem;
+      color: #4b5563;
+      font-size: 0.95rem;
+    }
+    .card a {
+      color: #2563eb;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .card a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 1.75rem 1rem;
+      color: #4b5563;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="WhatsApp Image 2026-10-05 at 6.38.17 PM.jpeg" alt="Dominick Kipkoech" class="profile-photo" />
+    <h1>Dominick Kipkoech</h1>
+    <p>Front-end learner building clean web pages and projects with HTML and CSS.</p>
+    <a class="btn" href="https://github.com/dominickipkoech-debug" target="_blank" rel="noopener noreferrer">
+      GitHub Profile
+    </a>
+  </header>
+
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <div class="card">
+        <p style="margin: 0;">
+          I am Dominick Kipkoech from Nakuru, Kenya, building practical web pages and learning modern web development step by step.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Simba Cement Website</h3>
+          <p>Webpage showcasing cement grades and building products.</p>
+          <a href="https://github.com/dominickipkoech-debug/simba-cement-website" target="_blank" rel="noopener noreferrer">
+            View Project
+          </a>
+        </article>
+
+        <article class="card">
+          <h3>Add Your Next Project</h3>
+          <p>Replace this card with another repository or assignment link as you build more projects.</p>
+          <a href="https://github.com/dominickipkoech-debug" target="_blank" rel="noopener noreferrer">
+            See All Repositories
+          </a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Dominick Kipkoech &bull; Built with HTML &amp; CSS
+  </footer>
+</body>
+</html>
